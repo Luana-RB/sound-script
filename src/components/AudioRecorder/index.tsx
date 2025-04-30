@@ -36,7 +36,7 @@ const AudioRecorder = () => {
     formData.append("model", "whisper-1");
     formData.append("language", "pt");
     const openaiKey = import.meta.env.VITE_OPENAI_KEY;
-    console.log("OpenAI Key:", openaiKey);
+    setTranscript("...");
     try {
       const response = await axios.post(
         "https://api.openai.com/v1/audio/transcriptions",
