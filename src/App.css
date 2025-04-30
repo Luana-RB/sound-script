@@ -24,4 +24,55 @@ h2 {
 
 p {
   margin: 32px;
+  font-size: 1.5rem;
+}
+
+.app-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-split {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+}
+
+.left-half {
+  flex: 1;
+  background-color: #f8b55f;
+}
+
+.right-half {
+  flex: 1;
+  background-color: #3d365c;
+}
+
+.first-title {
+  color: #3d365c;
+}
+
+.second-title {
+  color: #f8b55f;
+}
+.title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin-left: -0.5rem;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
 }
