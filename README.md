@@ -10,4 +10,4 @@ Paǵina WEB simples integrada com OpenAI API para transcrição de áudios captu
 
 ## Imagem
 
-[print](./public/print.png)
+![print](./public/print.png)
